@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Athirasmohan.github.io/Clock.git",
   "name": "my-digital-clock",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm install",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
